@@ -17,8 +17,8 @@ $(document).ready(function () {
     var output_name = rand_string(5)+'YTC-avatar.png';
     
         var text = { 'frames' : [
-		{'name':'Sinh Nhật YTC Lần Thứ 3', 'src' :'uploads/ytc.png'}, 
-		{'name':'YTC Chào Đón K63','src' :'uploads/frame-ytc.png'}, 
+		{'name':'Sinh Nhật Đội tình nguyện Khoa Công nghệ thực phẩm - ĐH Nha Trang Lần Thứ 12', 'src' :'uploads/ytc.png'}, 
+		
 	    ]};
 
 
@@ -128,6 +128,7 @@ $(document).ready(function () {
             _frame.onload = function () {
                 ctx.drawImage(_frame, 0, 0, _frame.width, _frame.height, 0, 0, output_size, output_size);
                 $('<a download="' + output_name + '" href="' + canvas.toDataURL() + '">Download Image</a>')[0].click();
+                console.log("ssss")
             };
         };
     });
