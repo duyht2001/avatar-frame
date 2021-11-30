@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 $frames = [
 	[
 		'name' => 'Sinh Nhật Đội tình nguyện Khoa Công nghệ thực phẩm - ĐH Nha Trang Lần Thứ 12',
-		'src'  => 'uploads/farme-cntp.png'
+		'src'  => 'uploads/ytc.png'
 	],
 	
 ];
